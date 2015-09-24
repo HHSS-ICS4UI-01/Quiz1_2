@@ -16,11 +16,13 @@ public class Quiz1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
         Scanner input = new Scanner(System.in);
         System.out.println("How many quarters does Martha have in the jar? ");          //asking for how many quarters she started with
         
         int quarters = input.nextInt();                                                 //how many quarters she has
         int time = 0;                                                                   //how many times she plays
+        
         System.out.println("How many times has the first machine been played since paying out? ");      //ask for how many times machines have been used
         int machine1 = input.nextInt();
         System.out.println("How many times has the second machine been played since paying out? ");
@@ -35,18 +37,19 @@ public class Quiz1 {
             machine1++;                                     //machines add 1 count
             machine2++;
             machine3++;
-            if(machine1==35){                               //cashout for machine 1 at 35 times for 30 quarters, reset to 0 times played
-                quarters += 30;
-                machine1=0;
-            }
-            if(machine2==100){                              //cashout for machine 2 at 100 times for 60 quarters, reset to 0 times played
-                quarters += 60;
-                machine2=0;
-            }
-            if(machine3==10){                               //cashout for machine 3 at 10 times for 9 quarters, reset to 0 times played
-                quarters += 9;
-                machine3=0;
-            }
+            
+                if(machine1==35){                               //cashout for machine 1 at 35 times for 30 quarters, reset to 0 times played
+                    quarters += 30;
+                    machine1=0;
+                }
+                if(machine2==100){                              //cashout for machine 2 at 100 times for 60 quarters, reset to 0 times played
+                    quarters += 60;
+                    machine2=0;
+                }
+                if(machine3==10){                               //cashout for machine 3 at 10 times for 9 quarters, reset to 0 times played
+                    quarters += 9;
+                    machine3=0;
+                }
         }
         
         
