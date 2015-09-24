@@ -23,11 +23,11 @@ public class Quiz1 {
         int quarters = input.nextInt();                                                 //how many quarters she has
         int time = 0;                                                                   //how many times she plays
         
-        System.out.println("How many times has the first machine been played since paying out? ");      //ask for how many times machines have been used
+        System.out.println("How many times has the first machine been played since paying out?");      //ask for how many times machines have been used
         int machine1 = input.nextInt();
-        System.out.println("How many times has the second machine been played since paying out? ");
+        System.out.println("How many times has the second machine been played since paying out?");
         int machine2 = input.nextInt();
-        System.out.println("How many times has the third machine been played since paying out? ");
+        System.out.println("How many times has the third machine been played since paying out?");
         int machine3 = input.nextInt();
         
         while(quarters>=3){                                 //while she still has enough quarters to play
