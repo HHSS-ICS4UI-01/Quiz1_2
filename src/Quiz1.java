@@ -61,6 +61,7 @@ public class Quiz1 {
                 third = 0;
                 max += 9;
             }
+            
             timesPlayed += 3;
         }
         
