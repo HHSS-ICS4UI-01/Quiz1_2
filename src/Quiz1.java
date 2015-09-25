@@ -19,15 +19,15 @@ public class Quiz1 {
         Scanner input = new Scanner(System.in);
         
         
-        System.out.println("How many quarters does Martha have in the jar? ");
+        System.out.println("How many quarters does Martha have in the jar?");
         
         int max = input.nextInt();
         
-        System.out.println("How many times has the first machine been played since paying out? ");
+        System.out.println("How many times has the first machine been played since paying out?");
         
         int first = input.nextInt();
         
-        System.out.println("How many times has the second machine been played since paying out? ");
+        System.out.println("How many times has the second machine been played since paying out?");
         
         int second = input.nextInt();
         
