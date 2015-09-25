@@ -32,7 +32,7 @@ public class Quiz1 {
         System.out.println("How many times has the third machine been played since paying out?");
         int thirdStart = input.nextInt();
         
-        for(int i = 0; i <= startingNum; i=i++)
+        for(int i = 0; i < startingNum; i++)
         {
             
             if(firstStart >= 35)  //is at at its point to giveing the coins back
